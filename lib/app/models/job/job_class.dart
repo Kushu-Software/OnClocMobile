@@ -3,13 +3,13 @@ const String jobClassGroupsTable = 'job_class_groups';
 
 class JobClassFields {
   static final List<String> values = [
-    id,
+    jobClassId,
     name,
     description,
     colourCode,
   ];
 
-  static const String id = 'id';
+  static const String jobClassId = 'jobClassId';
   static const String name = 'name';
   static const String description = 'description';
   static const String colourCode = 'colourCode';
@@ -28,27 +28,27 @@ class JobClassGroupFields {
 }
 
 class JobClass {
-  final int id;
+  final int jobClassId;
   final String name;
   final String description;
   final String colourCode;
 
   JobClass({
-    required this.id,
+    required this.jobClassId,
     required this.name,
     this.description = '',
     this.colourCode = '',
   });
 
   factory JobClass.fromJson(Map<String, dynamic> json) => JobClass(
-        id: json['id'],
+        jobClassId: json['jobClassId'],
         name: json['name'],
         description: json['description'],
         colourCode: json['colourCode'],
       );
 
   Map<String, dynamic> toJson() => {
-        'id': id,
+        'jobClassId': jobClassId,
         'name': name,
         'description': description,
         'colourCode': colourCode,

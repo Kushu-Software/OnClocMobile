@@ -11,13 +11,13 @@ class JobCardFields {
     isAssigned,
     isClosed,
     isPrimaryTechnician,
-    jobCardStatusId,
-    jobCardPriorityLevelId,
-    jobCardTypeId,
-    jobCardCategoryId,
-    jobCardClassId,
-    jobCardGroupId,
-    jobCardGenreId,
+    jobStatusId,
+    jobPriorityId,
+    jobTypeId,
+    jobCategoryId,
+    jobClassId,
+    jobGroupId,
+    jobGenreId,
     jobNumber,
     jobSubject,
     jobDescription,
@@ -36,13 +36,13 @@ class JobCardFields {
   static const String isAssigned = 'isAssigned';
   static const String isClosed = 'isClosed';
   static const String isPrimaryTechnician = 'isPrimaryTechnician';
-  static const String jobCardStatusId = 'jobCardStatusId';
-  static const String jobCardPriorityLevelId = 'jobCardPriorityLevelId';
-  static const String jobCardTypeId = 'jobCardTypeId';
-  static const String jobCardCategoryId = 'jobCardCategoryId';
-  static const String jobCardClassId = 'jobCardClassId';
-  static const String jobCardGroupId = 'jobCardGroupId';
-  static const String jobCardGenreId = 'jobCardGenreId';
+  static const String jobStatusId = 'jobStatusId';
+  static const String jobPriorityId = 'jobPriorityId';
+  static const String jobTypeId = 'jobTypeId';
+  static const String jobCategoryId = 'jobCategoryId';
+  static const String jobClassId = 'jobClassId';
+  static const String jobGroupId = 'jobGroupId';
+  static const String jobGenreId = 'jobGenreId';
   static const String jobNumber = 'jobNumber';
   static const String jobSubject = 'jobSubject';
   static const String jobDescription = 'jobDescription';
@@ -62,13 +62,13 @@ class JobCard {
   final bool isAssigned;
   final bool isClosed;
   final bool isPrimaryTechnician;
-  final int jobCardStatusId;
-  final int jobCardPriorityLevelId;
-  final int jobCardTypeId;
-  final int jobCardCategoryId;
-  final int jobCardClassId;
-  final int jobCardGroupId;
-  final int jobCardGenreId;
+  final int jobStatusId;
+  final int jobPriorityId;
+  final int jobTypeId;
+  final int jobCategoryId;
+  final int jobClassId;
+  final int jobGroupId;
+  final int jobGenreId;
   final String jobNumber;
   final String jobSubject;
   final String jobDescription;
@@ -87,13 +87,13 @@ class JobCard {
     required this.isAssigned,
     required this.isClosed,
     required this.isPrimaryTechnician,
-    required this.jobCardStatusId,
-    required this.jobCardPriorityLevelId,
-    required this.jobCardTypeId,
-    required this.jobCardCategoryId,
-    required this.jobCardClassId,
-    required this.jobCardGroupId,
-    required this.jobCardGenreId,
+    required this.jobStatusId,
+    required this.jobPriorityId,
+    required this.jobTypeId,
+    required this.jobCategoryId,
+    required this.jobClassId,
+    required this.jobGroupId,
+    required this.jobGenreId,
     required this.jobNumber,
     required this.jobSubject,
     required this.jobDescription,
@@ -113,13 +113,13 @@ class JobCard {
         isAssigned: json['isAssigned'],
         isClosed: json['isClosed'],
         isPrimaryTechnician: json['isPrimaryTechnician'],
-        jobCardStatusId: json['jobCardStatusId'],
-        jobCardPriorityLevelId: json['jobCardPriorityLevelId'],
-        jobCardTypeId: json['jobCardTypeId'],
-        jobCardCategoryId: json['jobCardCategoryId'],
-        jobCardClassId: json['jobCardClassId'],
-        jobCardGroupId: json['jobCardGroupId'],
-        jobCardGenreId: json['jobCardGenreId'],
+        jobStatusId: json['jobStatusId'],
+        jobPriorityId: json['jobPriorityId'],
+        jobTypeId: json['jobTypeId'],
+        jobCategoryId: json['jobCategoryId'],
+        jobClassId: json['jobClassId'],
+        jobGroupId: json['jobGroupId'],
+        jobGenreId: json['jobGenreId'],
         jobNumber: json['jobNumber'],
         jobSubject: json['jobSubject'],
         jobDescription: json['jobDescription'],
@@ -139,13 +139,13 @@ class JobCard {
         'isAssigned': isAssigned,
         'isClosed': isClosed,
         'isPrimaryTechnician': isPrimaryTechnician,
-        'jobCardStatusId': jobCardStatusId,
-        'jobCardPriorityLevelId': jobCardPriorityLevelId,
-        'jobCardTypeId': jobCardTypeId,
-        'jobCardCategoryId': jobCardCategoryId,
-        'jobCardClassId': jobCardClassId,
-        'jobCardGroupId': jobCardGroupId,
-        'jobCardGenreId': jobCardGenreId,
+        'jobStatusId': jobStatusId,
+        'jobPriorityLevelId': jobPriorityId,
+        'jobTypeId': jobTypeId,
+        'jobCategoryId': jobCategoryId,
+        'jobClassId': jobClassId,
+        'jobGroupId': jobGroupId,
+        'jobGenreId': jobGenreId,
         'jobNumber': jobNumber,
         'jobSubject': jobSubject,
         'jobDescription': jobDescription,

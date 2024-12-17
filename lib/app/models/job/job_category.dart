@@ -46,25 +46,21 @@ class JobCategory {
     bool isSelected = false,
   }) : isSelected = isSelected.obs;
 
-  factory JobCategory.fromJson(Map<String, dynamic> json) {
-    return JobCategory(
+  factory JobCategory.fromJson(Map<String, dynamic> json) => JobCategory(
       jobCategoryId: json['jobCategoryId'],
       name: json['name'],
       description: json['description'],
       colourCode: json['colourCode'],
       isSelected: json['isSelected'],
     );
-  }
 
-  Map<String, dynamic> toJson() {
-    return {
+  Map<String, dynamic> toJson() => {
       'jobCategoryId': jobCategoryId,
       'name': name,
       'description': description,
       'colourCode': colourCode,
       'isSelected': isSelected
     };
-  }
 }
 
 class JobCategoryClass {
@@ -78,19 +74,15 @@ class JobCategoryClass {
     required this.jobClassId,
   });
 
-  factory JobCategoryClass.fromJson(Map<String, dynamic> json) {
-    return JobCategoryClass(
+  factory JobCategoryClass.fromJson(Map<String, dynamic> json) => JobCategoryClass(
       id: json['id'],
       jobCategoryId: json['jobCategoryId'],
       jobClassId: json['jobClassId'],
     );
-  }
 
-  Map<String, dynamic> toJson() {
-    return {
+  Map<String, dynamic> toJson() => {
       'id': id,
       'jobCategoryId': jobCategoryId,
       'jobClassId': jobClassId,
     };
-  }
 }

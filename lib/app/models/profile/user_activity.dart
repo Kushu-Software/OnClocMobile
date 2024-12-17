@@ -1,42 +1,49 @@
+const String userActivitiesTable = 'user_activities';
+
+class UserActivityFields {
+  static final List<String> values = [
+    /// Add all fields
+    userActivityId, date, activity, activityType, status, time
+  ];
+
+  static final String userActivityId = 'userActivityId';
+  static final String date = 'date';
+  static final String activity = 'activity';
+  static final String activityType = 'activityType';
+  static final String status = 'status';
+  static final String time = 'time';
+}
+
 class UserActivity {
-  int id = 0;
-  DateTime date = DateTime.now();
-  String activity = '';
-  String activityType = '';
-  String status = '';
-  String time = '';
+  final int userActivityId;
+  final DateTime date;
+  final String activity;
+  final String activityType;
+  final String status;
+  final String time;
 
   UserActivity(
-      {required this.id,
+      {required this.userActivityId,
       required this.date,
       required this.activity,
       required this.activityType,
       required this.status,
       required this.time});
 
-  UserActivity.fromJson(Map<String, dynamic> json) {
-    if (json['id'] != null) {
-      id = json['id'];
-    }
-    if (json['date'] != null) {
-      date = DateTime.parse(json['date'].toString());
-    }
-    if (json['activity'] != null) {
-      activity = json['activity'];
-    }
-    if (json['activity_type'] != null) {
-      activityType = json['activity_type'];
-    }
-    if (json['status'] != null) {
-      status = json['status'];
-    }
-    if (json['time'] != null) {
-      time = json['time'];
-    }
-  }
+  factory UserActivity.fromJson(Map<String, dynamic> json) => UserActivity(
+      userActivityId: json['userActivityId'],
+      date: DateTime.parse(json['date']),
+      activity: json['activity'],
+      activityType: json['activityType'],
+      status: json['status'],
+      time: json['time']);
 
-  @override
-  String toString() {
-    return 'ActivityData{id: $id, date: $date, activity: $activity, activityType: $activityType, status: $status, time: $time}';
-  }
+  Map<String, dynamic> toJson() => {
+        'userActivityId': userActivityId,
+        'date': date.toIso8601String(),
+        'activity': activity,
+        'activityType': activityType,
+        'status': status,
+        'time': time
+      };
 }

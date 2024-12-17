@@ -67,7 +67,7 @@ class JobType {
   }
 }
 
-class JobTypeCategory{
+class JobTypeCategory {
   final int id;
   final int jobTypeId;
   final int jobCategoryId;
