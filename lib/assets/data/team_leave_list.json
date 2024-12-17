@@ -1,0 +1,49 @@
+{
+  "team_leave_list": [
+    {
+      "id": 1,
+      "from_date": "2024-04-15T10:00:00Z",
+      "to_date": "2024-04-18T10:00:00Z",
+      "status": "Pending",
+      "approved_by": "Martin Deo",
+      "days": 3,
+      "total_leave_balance": 16,
+      "leave_type": "Medical Leave",
+      "title": "Sick Leave",
+      "number": "(603) 555-0123",
+      "reason": "I need to take a medical leave.",
+      "team_member_name": "Jane Cooper",
+      "team_member_profile_pic": "https://i.ibb.co/z6761Wg/Ellipse-113.png"
+    },
+    {
+      "id": 2,
+      "from_date": "2024-05-15T10:00:00Z",
+      "to_date": "2024-05-15T10:00:00Z",
+      "status": "Pending",
+      "approved_by": "Martin Deo",
+      "days": 1,
+      "total_leave_balance": 16,
+      "leave_type": "Medical Leave",
+      "title": "Sick Leave",
+      "number": "(603) 555-0123",
+      "reason": "I need to take a medical leave.",
+      "team_member_name": "Leslie Alexander",
+      "team_member_profile_pic": "https://i.ibb.co/q0TXL97/Ellipse-110.png"
+    },
+    {
+      "id": 3,
+      "from_date": "2024-04-15T10:00:00Z",
+      "to_date": "2024-04-18T10:00:00Z",
+      "status": "Pending",
+      "approved_by": "Martin Deo",
+      "days": 3,
+      "total_leave_balance": 15,
+      "leave_type": "Medical Leave",
+      "title": "Sick Leave",
+      "number": "(603) 555-0123",
+      "reason": "I need to take a medical leave.",
+      "team_member_name": "Jenny Wilson",
+      "team_member_profile_pic": "https://i.ibb.co/Vpw2qBx/Ellipse-112.png"
+    }
+  ]
+}

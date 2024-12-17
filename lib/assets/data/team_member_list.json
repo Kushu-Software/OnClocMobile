@@ -1,0 +1,36 @@
+{
+  "team_member_list": [
+    {
+      "id": 1,
+      "profile_pic": "https://i.ibb.co/q0TXL97/Ellipse-110.png",
+      "name": "Jane Hawkins",
+      "email": "janehawkins@demo.com",
+      "contact_number": "(603) 555-0123"
+    },{
+      "id": 2,
+      "profile_pic": "https://i.ibb.co/Vpw2qBx/Ellipse-112.png",
+      "name": "Brooklyn Simmons",
+      "email": "brooklynsimmons@demo.com",
+      "contact_number": "(603) 555-0123"
+    },{
+      "id": 3,
+      "profile_pic": "https://i.ibb.co/z6761Wg/Ellipse-113.png",
+      "name": "Leslie Alexander",
+      "email": "lesliealexander@demo.com",
+      "contact_number": "(603) 555-0123"
+    },{
+      "id": 4,
+      "profile_pic": "https://i.ibb.co/q0TXL97/Ellipse-110.png",
+      "name": "Ronald Richards",
+      "email": "ronaldrichards@demo.com",
+      "contact_number": "(603) 555-0123"
+    },
+    {
+      "id": 5,
+      "profile_pic": "https://i.ibb.co/z6761Wg/Ellipse-113.png",
+      "name": "Jenny Wilson",
+      "email": "jennywilson@demo.com",
+      "contact_number": "(603) 555-0123"
+    }
+  ]
+}

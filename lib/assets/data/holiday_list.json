@@ -1,0 +1,52 @@
+{
+  "holiday_list": [
+    {
+      "id": 1,
+      "date": "2024-01-26T10:00:00Z",
+      "status": "Inactive",
+      "name": "Republic Day"
+    },
+    {
+      "id": 2,
+      "date": "2024-03-08T10:00:00Z",
+      "status": "Inactive",
+      "name": "Holi"
+    },
+    {
+      "id": 3,
+      "date": "2024-08-15T10:00:00Z",
+      "status": "active",
+      "name": "Independence Day"
+    },
+    {
+      "id": 3,
+      "date": "2024-08-30T10:00:00Z",
+      "status": "active",
+      "name": "Raksha Bhandan"
+    },
+    {
+      "id": 4,
+      "date": "2024-09-07T10:00:00Z",
+      "status": "active",
+      "name": "Janmashtami"
+    },
+    {
+      "id": 5,
+      "date": "2024-11-12T10:00:00Z",
+      "status": "active",
+      "name": "Diwali"
+    },
+    {
+      "id": 6,
+      "date": "2024-11-13T10:00:00Z",
+      "status": "active",
+      "name": "New Year"
+    },
+    {
+      "id": 7,
+      "date": "2024-12-25T10:00:00Z",
+      "status": "active",
+      "name": "Christmas"
+    }
+  ]
+}

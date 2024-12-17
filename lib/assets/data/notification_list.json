@@ -1,0 +1,41 @@
+{
+  "notification_list": [
+    {
+      "title": "You update your profile picture",
+      "message": "You just update your profile picture.",
+      "date_time": "Just Now",
+      "notification_type": "updateProfile"
+    },
+    {
+      "title": "Password Changed",
+      "message": "You’ve completed change the password.",
+      "date_time": "April 12, 2023 at 22:22 Pm",
+      "notification_type": "password"
+    },
+    {
+      "title": "Mark Alen Applied for Leave",
+      "message": "Please accept my leave request.",
+      "date_time": "February 23, 2022 at 21:22 Pm",
+      "notification_type": "leave",
+      "image_url": "https://i.ibb.co/jLNV2tr/Icon.png"
+    },
+    {
+      "title": "System Update",
+      "message": "Please update to newest app, for get amazing experience.",
+      "date_time": "April 15, 2023 at 21:22 Pm",
+      "notification_type": "systemUpdate"
+    },
+    {
+      "title": "You update your profile picture",
+      "message": "You just update your profile picture.",
+      "date_time": "April 10, 2023 at 22:22 Pm",
+      "notification_type": "updateProfile"
+    },
+    {
+      "title": "Password Changed",
+      "message": "You’ve completed change the password.",
+      "date_time": "April 08, 2023 at 22:22 Pm",
+      "notification_type": "password"
+    }
+  ]
+}
