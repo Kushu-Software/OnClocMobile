@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
-const String jobTypesTable = 'job_Types';
-const String jobTypeCategoriesTable = 'job_Type_Categories';
+const String jobTypesTable = 'job_types';
+const String jobTypeCategoriesTable = 'job_type_categories';
 
 class JobTypeFields {
   static final List<String> values = [
@@ -46,17 +46,17 @@ class JobType {
     bool isSelected = false,
   }) : isSelected = isSelected.obs;
 
-  factory JobType.fromMap(Map<String, dynamic> map) {
+  factory JobType.fromJson(Map<String, dynamic> json) {
     return JobType(
-      jobTypeId: map['jobTypeId'],
-      name: map['name'],
-      description: map['description'],
-      colourCode: map['colourCode'],
-      isSelected: map['isSelected'],
+      jobTypeId: json['jobTypeId'],
+      name: json['name'],
+      description: json['description'],
+      colourCode: json['colourCode'],
+      isSelected: json['isSelected'],
     );
   }
 
-  Map<String, dynamic> toMap() {
+  Map<String, dynamic> toJson() {
     return {
       'jobTypeId': jobTypeId,
       'name': name,
@@ -78,15 +78,15 @@ class JobTypeCategory{
     required this.jobCategoryId,
   });
 
-  factory JobTypeCategory.fromMap(Map<String, dynamic> map) {
+  factory JobTypeCategory.fromJson(Map<String, dynamic> json) {
     return JobTypeCategory(
-      id: map['id'],
-      jobTypeId: map['jobTypeId'],
-      jobCategoryId: map['jobCategoryId'],
+      id: json['id'],
+      jobTypeId: json['jobTypeId'],
+      jobCategoryId: json['jobCategoryId'],
     );
   }
 
-  Map<String, dynamic> toMap() {
+  Map<String, dynamic> toJson() {
     return {
       'id': id,
       'jobTypeId': jobTypeId,

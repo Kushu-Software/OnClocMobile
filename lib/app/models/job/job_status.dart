@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-const String jobStatusesTable = 'job_Statuses';
+const String jobStatusesTable = 'job_statuses';
 
 class JobStatus {
   final int id;
@@ -15,16 +15,16 @@ class JobStatus {
     bool isSelected = false,
     }) : isSelected = isSelected.obs;
 
-  factory JobStatus.fromMap(Map<String, dynamic> map) {
+  factory JobStatus.fromJson(Map<String, dynamic> json) {
     return JobStatus(
-      id: map['id'],
-      status: map['status'],
-      colourCode: map['colourCode'],
-      isSelected: map['isSelected'],
+      id: json['id'],
+      status: json['status'],
+      colourCode: json['colourCode'],
+      isSelected: json['isSelected'],
     );
   }
 
-  Map<String, dynamic> toMap() {
+  Map<String, dynamic> toJson() {
     return {
       'id': id,
       'status': status,

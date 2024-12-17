@@ -1,4 +1,4 @@
-const String jobCardGroupsTable = 'job_Card_Groups';
+const String jobGroupsTable = 'job_Groups';
 
 class JobCardGroup {
   final int id;
