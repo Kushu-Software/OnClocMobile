@@ -24,7 +24,7 @@ class UserNotification {
   final String message;
   final DateTime dateTime;
   final String imageUrl;
-  final int notificationTypeId;
+  final String notificationTypeId;
 
   UserNotification({
     required this.notificationId,
